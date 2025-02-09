@@ -14,14 +14,14 @@ datasource db {
 }
 
 enum Plans {
-  BASIC
+  STANDARD
   PRO
-  ENTERPRISE
+  ULTIMATE
 }
 
 enum MessageRole {
   USER
-  BOT
+  ASSISTANT
 }
 
 model User {
